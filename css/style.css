@@ -9,20 +9,20 @@ body {
 }
 
 header {
-    background-color: dodgerblue;
+    background-color: #bcbcf2;
     border-bottom: 3px solid tomato;
     margin-bottom: 20px;
 }
 
 footer {
-    background-color: dodgerblue;
+    background-color: #bcbcf2;
     border-top: 3px solid tomato;
     text-align: center;
     padding: 10px;
 }
 
 article {
-    background-color: tomato;
+    background-color: #E7E8FF;
     margin: 0 auto 20px;
     border: 2px solid dodgerblue;
     padding: 50px;
@@ -39,18 +39,23 @@ nav {
     display: inline;
 }
 
+.repo_list{
+    display:inline-block
+}
+
 #brand-title {
     margin-right: 20px;
 }
 
 a {
-    color: black;
+    color: darkslateblue;
+    font-weight:lighter;
     padding: 5px;
     text-decoration: none;
 }
 
 a:hover {
-    color: tomato;
+    color: white;
 }
 
 form {
@@ -80,4 +85,8 @@ textarea {
     width: 25%;
     border-radius: 50%;
     border: 2px solid black
+}
+
+li{
+    text-align: left;
 }
